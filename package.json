@@ -1,0 +1,35 @@
+{
+  "name": "@lucien144/vue-dump-filter",
+  "version": "1.0.0",
+  "description": "Tiny logger for Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucien144/vue-dump-filter.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "console",
+    "log",
+    "logger",
+    "dump"
+  ],
+  "author": "Jan Blasko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucien144/vue-dump-filter/issues"
+  },
+  "homepage": "https://github.com/lucien144/vue-dump-filter#readme",
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+	"rules": {
+	  "object-curly-spacing": ["error", "always"]
+	}
+  }
+}
