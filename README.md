@@ -6,6 +6,11 @@
 $ npm i @lucien144/vue-dump-filter
 ```
 
+```js
+import VueDump from '@lucien144/vue-dump-filter';
+Vue.use(VueDump, { production: process.env.NODE_ENV === 'production' });
+```
+
 ## Usage
 
 You can use it as a Vue filter: `|dump`
